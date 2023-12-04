@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  max-width: 8rem;
+}
+
+.nav-header {
+  position: relative;
+  display: flex;
+}
+
+.nav-header ul li {
+  list-style: none;
+}
+
+/*
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  width: 80vw;
+}
+
+.img-background {
+  background-color: #f2eae7;
+  background-image: url("/img/ice-creams-001.webp"); 
+
+  background-size: cover;
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+body {
+  background-color: #fecdd3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+} 
+
+.text {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  color: #333; 
+  color: #262626;
+  color: #321207;
+  letter-spacing: -0.5px;
+  font-size: 3.2rem;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+*/
