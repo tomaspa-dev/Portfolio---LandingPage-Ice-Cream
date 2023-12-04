@@ -5,27 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Ice cream</title>
+    <title>Ice cream &mdash; irresistible and unique!</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <a href="#"><img src="img/omnifood-logo.png" alt=""></a>
-        </div>
+        <a href="#"><img class="logo" src="img/omnifood-logo.png" alt="Ice Cream Shop Logo"></a>
+
         <nav class="main-nav-header">
             <ul class="main-nav-list">
                 <li><a class="main-nav-links" href="#">Home</a></li>
                 <li><a class="main-nav-links" href="#">Menu</a></li>
-                <li><a class="main-nav-links" href="#">What's New</a></li>
+                <li><a class="main-nav-links" href="#">Gallery</a></li>
             </ul>
         </nav>
-        <!-- <button class="btn-mobile-nav"></button> -->
+        <!-- <button class="btn-mobile-nav">Order now</button> -->
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
+    <section class="hero-section" id="hero">
+        <div class="container hero">
             <div class="hero-content">
                 <div class="heading-primary">
                     <h1>Unmatched flavor</h1>
@@ -36,7 +35,9 @@
                 <div class="text"> Explore an irresistible range of artisanal ice creams made with fresh, natural
                     ingredients. In our ice cream shop, every spoonful is a delightful experience you'll never forget
                 </div>
-                <div class="social-proof">+500 Usuarios | 4.5 Stars</div>
+                <div class="social-proof">
+                    <p>+500 Usuarios | 4.5 Stars</p>
+                </div>
                 <a class="btn btn--full" href="#">Get Ice Cream now</a>
                 <a class="btn btn--outline" href="#">Visit the Gallery</a>
             </div>
@@ -47,9 +48,30 @@
     </section>
 
     <!-- Hero Section -->
+    <section class="featured-section" id="features">
+        <div class="container">
+            <h2>Features Product</h2>
 
-    <section class="features-section">
-        <h2>Features Product</h2>
+            <div class="featured cards">
+                <!-- card 1 -->
+                <div class="card"><img src="/icono1.png" alt="icono">
+                    <h3>Unique Flabors</h3>
+                    <p>Dolore quas sed quia aliquam excepturi repellendus distinctio eaque accusantium.</p>
+                </div>
+
+                <!-- card 2 -->
+                <div class="card"><img src="/icono2.png" alt="icono">
+                    <h3>Fresh Ingredients</h3>
+                    <p>Veniam esse odit alias cum harum libero quam voluptatum cumque vitae.</p>
+                </div>
+
+                <!-- card 3 -->
+                <div class="card"><img src="/icono2.png" alt="icono">
+                    <h3>Great and Fast Service</h3>
+                    <p>Amet harum accusantium quasi illum doloremque aperiam aliquam. Deleniti nihil laborum.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
 </body>
