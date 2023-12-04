@@ -1,4 +1,4 @@
-# Coffee Shop
+# Ice Cream Shop
 
 ## Navigation
 
@@ -11,6 +11,8 @@ Inicio, Menú, Servicios, Ofertas, Acerca de Nosotros, Lugares, Testimonios, Gal
 
 Headline: "Descubre un Mundo de Sabores en Coffee Shop. Sabor que Cautiva, Ambiente que Encanta."
 Headline: "Experience a World of Flavors at Coffee Shop. Captivating Flavor, Enchanting Ambiance"
+
+Subline
 
 Brand color: #e67e22
 
