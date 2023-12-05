@@ -9,10 +9,11 @@ Inicio, Menú, Servicios, Ofertas, Acerca de Nosotros, Lugares, Testimonios, Gal
 
 ### Branding
 
-Headline: "Descubre un Mundo de Sabores en Coffee Shop. Sabor que Cautiva, Ambiente que Encanta."
-Headline: "Experience a World of Flavors at Coffee Shop. Captivating Flavor, Enchanting Ambiance"
+Headline: Descubre un Mundo de Sabores en Coffee Shop. Sabor que Cautiva, Ambiente que Encanta.
+Headline: "Discover Frozen Bliss in Every Bite"
 
-Subline
+Subline: Love Ice Cream?
+Subline: ¿Te encanta el helado?
 
 Brand color: #e67e22
 
@@ -20,11 +21,12 @@ Brand color: #e67e22
 
 ### Resumen /Summary
 
-"En Coffee Shop, creamos experiencias únicas a través de cada taza de café.
-Descubre nuestro mundo donde la calidad se encuentra con la calidez, y cada sorbo cuenta una historia."
+Resumen
+Déjate llevar por la armonía de cacao puro y textura cremosa en cada bocado. Una experiencia indulgente que despierta tus sentidos y redefine el placer del chocolate.
+Summary
+Let the harmony of pure cocoa and creamy texture transport you with every bite. An indulgent experience that awakens your senses and redefines the pleasure of chocolate.
 
-"At Coffee Shop, we craft unique experiences through every cup of coffee.
-Explore our world where quality meets warmth, and each sip tells a story."
+"Introducing a New Irresistible Flavor."
 
 ### Testimonios / Customer testimonials
 
