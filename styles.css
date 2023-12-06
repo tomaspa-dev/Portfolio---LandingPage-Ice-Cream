@@ -66,6 +66,7 @@ Optional
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
+  background-color: #e2ac20;
   color: #fff;
 }
 
@@ -127,7 +128,7 @@ Optional
   color: #705951;
   font-weight: 500;
   font-size: 1.8rem;
-  /* transition: all 0.3s; */
+  transition: all 0.3s;
 }
 
 .main-nav-link:link {
@@ -163,7 +164,7 @@ Optional
   padding: 1.1rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #e2ac20;
 }
 
 .main-nav-link.nav-cta:hover,
@@ -220,7 +221,7 @@ Optional
 .meal-icon {
   height: 2rem;
   width: 2rem;
-  color: #cf711f;
+  color: #e2ac20;
 }
 
 .hero-content {

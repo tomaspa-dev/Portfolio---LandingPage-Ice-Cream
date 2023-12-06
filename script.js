@@ -14,9 +14,10 @@ const a1 = annotate(n1, {
 });
 const a2 = annotate(n2, {
   type: "underline",
-  color: "#fcd34d",
+  color: "#fbbf24",
   padding: 0,
   strokeWidth: 3.5,
+  animate: false,
 });
 // a1.show();
 
