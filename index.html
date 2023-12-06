@@ -6,23 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="queries.css">
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Ice cream &mdash; irresistible and unique!</title>
 </head>
 
 <body>
     <header class="header">
-
-
         <a href="#"><img class="logo" src="img/Ice-cream-logo2.webp" alt="Ice Cream Shop Logo"></a>
-
-
         <nav class="main-nav-header">
             <ul class="main-nav-list">
                 <li><a class="main-nav-link" href="#">Home</a></li>
                 <li><a class="main-nav-link" href="#">Menu</a></li>
                 <li><a class="main-nav-link" href="#">Gallery</a></li>
-                <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+                <li><a class="main-nav-link nav-cta" href="#">Try it now</a></li>
             </ul>
         </nav>
     </header>
@@ -36,7 +33,7 @@
                     <h1>Frozen Bliss in</h1>
                     <h1>Every Bite</h1>
                 </div>
-                <div class="heading-secondary">
+                <div class="heading-tertiary">
                     <h2>Love Ice Cream?</h2>
                 </div>
                 <div class="hero-description"> Let the harmony of pure cocoa and creamy texture transport you with every
@@ -70,25 +67,30 @@
     <!-- Hero Section -->
     <section class="featured-section" id="features">
         <div class="container">
-            <h2>Features Product</h2>
+            <h2 class="heading-secondary">Features Product</h2>
 
-            <div class="featured cards">
+            <div class="featured-cards">
                 <!-- card 1 -->
-                <div class="card"><img src="/icono1.png" alt="icono">
-                    <h3>Unique Flabors</h3>
-                    <p>Dolore quas sed quia aliquam excepturi repellendus distinctio eaque accusantium.</p>
+                <div class="card">
+                    <ion-icon class="feature-icon" name="ice-cream-outline"></ion-icon>
+                    <h3 class="feature-title">Crunchy Coating with Nuts</h3>
+                    <p class="feature-text">Experience the perfect crunch with our luscious coating and nuts.</p>
                 </div>
 
                 <!-- card 2 -->
-                <div class="card"><img src="/icono2.png" alt="icono">
-                    <h3>Fresh Ingredients</h3>
-                    <p>Veniam esse odit alias cum harum libero quam voluptatum cumque vitae.</p>
+                <div class="card">
+                    <ion-icon class="feature-icon" name="layers-outline"></ion-icon>
+                    <h3 class="feature-title">Variety of Fillings</h3>
+                    <p class="feature-text">Discover our extensive range of fillings that will surprise you with every
+                        bite.</p>
                 </div>
 
                 <!-- card 3 -->
-                <div class="card"><img src="/icono2.png" alt="icono">
-                    <h3>Great and Fast Service</h3>
-                    <p>Amet harum accusantium quasi illum doloremque aperiam aliquam. Deleniti nihil laborum.</p>
+                <div class="card">
+                    <ion-icon class="feature-icon" name="sparkles-outline"></ion-icon>
+                    <h3 class="feature-title">Perfect for any occasion</h3>
+                    <p class="feature-text">From celebrations to everyday moments, our ice cream is the perfect dessert
+                        for any occasion.</p>
                 </div>
             </div>
         </div>
