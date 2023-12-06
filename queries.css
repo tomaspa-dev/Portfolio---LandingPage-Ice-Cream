@@ -45,6 +45,25 @@
   .hero {
     gap: 4.8rem;
   }
+
+  .featured-cards {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+  }
+
+  .logo {
+    height: 3.4rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.4rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
 }
 
 /*******************************/
@@ -60,5 +79,18 @@
     grid-template-columns: 1fr;
     /* height: 75vh; */
     gap: 1rem;
+  }
+
+  .logo {
+    height: 2.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1rem;
+  }
+
+  .main-nav-list {
+    gap: 1.4rem;
   }
 }
