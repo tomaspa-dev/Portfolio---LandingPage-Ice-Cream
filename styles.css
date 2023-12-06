@@ -21,6 +21,14 @@ body {
   color: #555;
 }
 
+/*
+Optional
+*/
+#underline-heading,
+#highlight-heading {
+  display: inline-block;
+}
+
 .heading-primary,
 .heading-secondary {
   font-weight: 700;
