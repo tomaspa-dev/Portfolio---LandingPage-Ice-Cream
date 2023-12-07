@@ -1,72 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 
-/*
-Optional
-*/
+/** HEADER **/
 #underline-heading,
 #highlight-heading {
   display: inline-block;
 }
-
-.heading-primary,
-.heading-secondary {
-  font-weight: 700;
-  color: #472a20;
-  letter-spacing: -0.5px;
-  font-size: 3.2rem;
-  line-height: 1.1;
-  margin-bottom: 3.2rem;
-}
-
-.heading-tertiary {
-  color: #262626;
-  color: #7e6a63;
-  font-size: 1.2rem;
-  line-height: 1.2;
-  margin-bottom: 2.4rem;
-}
-
-.btn,
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1.6rem;
-  font-weight: 600;
-  padding: 1.6rem 2.4rem;
-  margin-right: 1.2rem;
-  border-radius: 9px;
-
-  transition: all 0.3s;
-}
-
-.btn--full:link,
-.btn--full:visited {
-  background-color: #e67e22;
-  background-color: #e2ac20;
-  color: #fff;
-}
-
-.btn--full:hover,
-.btn--full:active {
-  background-color: #cb9b1d;
-}
-
-.btn--outline:link,
-.btn--outline:visited {
-  background-color: #f2f2d4;
-  color: #555;
-  transition: all 0.3s;
-}
-
-.btn--outline:hover,
-.btn--outline:active {
-  background-color: #ededc2;
-  color: #555;
-}
-
-/* HEADER */
 
 .header {
   display: flex;
@@ -148,23 +87,28 @@ Optional
   background-color: #cb9b1d;
 }
 
-.container {
-  max-width: 120rem;
-  padding: 0 3.2rem;
-  margin: 0 auto;
+.hero-section,
+.statistics-section,
+.testimonials-section,
+.menu-section,
+.gallery-section,
+.cta-section,
+.footer-section {
+  background-color: #f1f1cf;
+  padding: 12rem 0;
 }
 
-/* HERO SECTION */
+/** HERO SECTION **/
 .hero-section {
   background-color: #f1f1cf;
-  padding: 1.8rem 0 8.2rem 0;
+  padding: 4rem 0 4rem 0;
 }
 
 .hero {
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 6.2rem;
-  align-items: center;
+  align-items: start;
   /* justify-content: start; */
   /* height: 85vh; */
 }
@@ -224,18 +168,11 @@ Optional
   /* object-fit: cover; */
 }
 
-/* FEATURED SECTION */
+/** FEATURED SECTION **/
 
 .featured-section {
   text-align: center;
-  padding: 5rem;
-}
-
-.featured-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
+  padding: 12rem 0;
 }
 
 .card {
@@ -264,6 +201,30 @@ Optional
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8rem;
+}
+
+/** STATISTICS SECTION **/
+.statistics-section {
+}
+
+/** TESTIMONIALS SECTION **/
+.testimonials-section {
+}
+
+/** MENU SECTION **/
+.menu-section {
+}
+
+/** GALLERY SECTION **/
+.gallery-section {
+}
+
+/** CTA SECTION **/
+.cta-section {
+}
+
+/** FOOTER SECTION **/
+.footer-section {
 }
 
 /*

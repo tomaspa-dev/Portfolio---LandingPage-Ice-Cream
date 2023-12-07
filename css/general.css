@@ -1,6 +1,5 @@
 /*
 ---01 TYPOGRAPHY SYSTEM
-
 - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 42 / 52 / 62 / 74 / 86 / 90 / 96 / 100
 
@@ -76,7 +75,6 @@ Medium: 11px
 --- 07 WHITESPACE
 -- Spacing system (px) multiples of 12
 4 / 6 / 12 / 24 / 36 / 48 / 60 / 72 / 84 / 96 / 120 
-
 */
 
 * {
@@ -103,8 +101,126 @@ body {
 /* GENERAL REUSABLE COMPONENTS*/
 /*******************************/
 
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  color: #472a20;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 3.6rem;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+
+.heading-tertiary {
+  color: #7e6a63;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #917f79;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.6rem 2.4rem;
+  margin-right: 1.2rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  background-color: #e2ac20;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cb9b1d;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #f2f2d4;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #ededc2;
+  color: #555;
+}
+
 /*******************************/
 /* HELPER/SETTINGS CLASSES */
 /*******************************/
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
 
 /*******************************/
