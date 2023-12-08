@@ -199,6 +199,12 @@ body {
   color: #555;
 }
 
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e2ac20;
+}
+
 /*******************************/
 /* HELPER/SETTINGS CLASSES */
 /*******************************/
