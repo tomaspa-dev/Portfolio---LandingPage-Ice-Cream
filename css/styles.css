@@ -432,6 +432,12 @@
   padding: 12rem 0;
 }
 
+.img-gallery {
+  max-width: 100%;
+  height: auto;
+  /* vertical-align: middle; */
+}
+
 /** CTA SECTION **/
 .cta-section {
 }
