@@ -456,9 +456,20 @@
   box-shadow: 0px 10px 15px -14px rgba(0, 0, 0, 0.8);
 }
 
+.locals-title {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.locals-text {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #b0b0b0;
+}
 /* .locals-card > .row */
 .row {
-  color: white;
+  color: #fff;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -466,7 +477,7 @@
 /* .locals-card > .row > .icon */
 .icon {
   background: #6c554d;
-  color: white;
+  color: #fff;
   border-radius: 50%;
   width: 5rem;
   display: flex;
@@ -497,7 +508,6 @@
 }
 
 .description p {
-  color: #b0b0b0;
   padding-top: 0.5rem;
 }
 
@@ -564,9 +574,9 @@ input:checked + label .description {
   grid-row: span 2;
 }
 
-.img-gallery-box:nth-child(3) {
+.img-gallery-box:nth-child(8) {
   grid-column: 3/-1;
-  grid-row: 1/2;
+  grid-row: 2/2;
 }
 
 .img-gallery-box:nth-child(17) {
