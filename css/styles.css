@@ -424,6 +424,77 @@
 
 /** MENU SECTION **/
 
+.main-menu-heading {
+  margin-bottom: 9.6rem;
+}
+
+.meal-img {
+  width: 100%;
+  background-color: #fecaca;
+}
+
+.meal {
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.079);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.06);
+}
+
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  background-color: #fff;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.meal-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.tag--chocolate {
+  background-color: #472a20;
+  color: #fff;
+}
+
+.tag--strawberries {
+  background-color: #be123c;
+  color: #fff;
+}
+
+.tag--vainilla {
+  background-color: #ffd43b;
+}
+
+.tag--mint {
+  background-color: #86efac;
+}
+
 /** GALLERY SECTION **/
 .wrapper {
   /* width: 100%;
