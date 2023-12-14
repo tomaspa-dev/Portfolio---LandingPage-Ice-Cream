@@ -680,6 +680,11 @@ input:checked + label .description {
   margin: 0 auto;
 }
 
+.btn-menu {
+  grid-column: 2/3;
+  text-align: center;
+}
+
 /* grid-auto-rows: 200px; */
 /* grid-auto-flow: dense; */
 /* max-width: 100%; */
