@@ -431,6 +431,42 @@
 .meal-img {
   width: 100%;
   background-color: #fecaca;
+  position: relative;
+}
+
+.meal-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.meal:hover .meal-img::before {
+  opacity: 1;
+}
+
+.meal-description {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+  color: #fff;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.4s;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 28%;
+}
+
+.meal:hover .meal-description {
+  opacity: 1;
 }
 
 .meal {
@@ -557,6 +593,20 @@
   margin: 1.5rem;
 }
 
+.meal-description-title {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.meal-description-text {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #cccccc;
+  font-weight: 500;
+}
+
 /* .locals-card > .row > */
 .description {
   display: flex;
@@ -680,9 +730,10 @@ input:checked + label .description {
   margin: 0 auto;
 }
 
-.btn-menu {
+.btn--menu {
   grid-column: 2/3;
   text-align: center;
+  font-size: 2.2rem !important;
 }
 
 /* grid-auto-rows: 200px; */
