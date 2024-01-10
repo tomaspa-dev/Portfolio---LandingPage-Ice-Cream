@@ -437,9 +437,33 @@
     <!-- Call to Action -->
     <section class="cta-section">
         <div class="container">
-            <h2 class="heading-secondary">Heading</h2>
-            <p>text</p>
+            <div class="cta">
+                <div class="cta-text-box">
+                    <h2 class="heading-secondary">Subscribe and get amazing discounts</h2>
+                    <p class="cta-text">Subscribe and get a 25% discount on your first purchase, and every time a
+                        referred
+                        friend buys, get a 50%
+                        discount on your next purchase.</p>
+                </div>
 
+                <form class="cta-form" name="subscribe" method="POST" data-netlify="true">
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input id="full-name" type="text" placeholder="John Smith" name="full-name" required>
+                    </div>
+
+                    <div class="custom-search">
+                        <input id="email" type="email" placeholder="me@example.com" name="email" required>
+                        <button type="submit" class="btn btn--form">Subscribe</button>
+                    </div>
+                    <!-- 
+                    <div class="custom-search">
+                        <input type="text" class="custom-search-input" placeholder="Enter your email">
+                        <button class="custom-search-botton" type="submit">Subscribe</button>  
+                      </div> -->
+
+                </form>
+            </div>
         </div>
     </section>
 
