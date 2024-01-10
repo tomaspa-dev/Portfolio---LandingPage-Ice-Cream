@@ -623,15 +623,15 @@
   text-transform: uppercase;
 }
 
-input {
+.container-locals input {
   display: none;
 }
 
-input:checked + label {
+.container-locals input:checked + label {
   width: 60rem;
 }
 
-input:checked + label .description {
+.container-locals input:checked + label .description {
   opacity: 1 !important;
   transform: translateY(0) !important;
 }
@@ -722,8 +722,25 @@ input:checked + label .description {
 }
 
 /** CTA SECTION **/
-.cta-section {
+.section-cta {
+  /* top / right / bottom / left */
+  /* padding: 9.6rem 0 12.8rem 0; */
+
+  /* top / horizontal / left */
   padding: 4.8rem 0 12.8rem;
+}
+
+.cta {
+  display: grid;
+  /* 2/3 = 66.6% + 1/3 = 33.3% */
+  grid-template-columns: 1fr;
+  background-color: #e2ac20;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+
+  /* background-image: linear-gradient(to right bottom, #eb984e, #e67e22); */
+  overflow: hidden;
+  align-items: center;
 }
 
 .cta-form {
@@ -757,7 +774,7 @@ input:checked + label .description {
   color: #aaa;
 }
 
-.cta-form input:focus {
+.cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
@@ -775,43 +792,34 @@ input:checked + label .description {
 
 .custom-search {
   position: relative;
-  width: 300px;
+  width: 100%;
 }
 
 #email {
-  width: calc(100% - 40px); /* Ajuste para dejar espacio al botón */
+  /* width: 100%; */
+  width: calc(100% - 40px);
   border: 1px solid #ccc;
   border-radius: 100px;
-  padding: 10px 20px; /* Se ajustó para que el cuadro de texto sea más estrecho */
+  padding: 10px 20px;
   line-height: 1;
   box-sizing: border-box;
   outline: none;
 }
+
 .btn--form {
   position: absolute;
   right: 3px;
   top: 3px;
   bottom: 3px;
   border: 0;
-  background: #d1095e;
+  background: #472a20;
   color: #fff;
   outline: none;
   margin: 0;
-  padding: 0 10px;
-  border-radius: 100px;
+  padding: 0 15px;
+  border-radius: 80px;
   z-index: 2;
   cursor: pointer;
-}
-
-.btn--form {
-  background-color: #45260a;
-  color: #fdf2e9;
-  /* align-self: flex-end; */
-}
-
-.btn--form:hover {
-  background-color: #fff;
-  color: #555;
 }
 
 /** FOOTER SECTION **/

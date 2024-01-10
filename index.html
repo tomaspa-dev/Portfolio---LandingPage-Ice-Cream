@@ -444,25 +444,21 @@
                         referred
                         friend buys, get a 50%
                         discount on your next purchase.</p>
+
+                    <form class="cta-form" name="subscribe" method="POST" data-netlify="true">
+                        <div class="full-name-input">
+                            <label for="full-name">Full Name</label>
+                            <input id="full-name" type="text" placeholder="John Smith" name="full-name" required>
+                        </div>
+
+                        <div class="custom-search">
+                            <label for="email">Email address</label>
+                            <input id="email" type="email" placeholder="me@example.com" name="email" required>
+                            <button type="submit" class="btn btn--form">Subscribe</button>
+                        </div>
+
+                    </form>
                 </div>
-
-                <form class="cta-form" name="subscribe" method="POST" data-netlify="true">
-                    <div>
-                        <label for="full-name">Full Name</label>
-                        <input id="full-name" type="text" placeholder="John Smith" name="full-name" required>
-                    </div>
-
-                    <div class="custom-search">
-                        <input id="email" type="email" placeholder="me@example.com" name="email" required>
-                        <button type="submit" class="btn btn--form">Subscribe</button>
-                    </div>
-                    <!-- 
-                    <div class="custom-search">
-                        <input type="text" class="custom-search-input" placeholder="Enter your email">
-                        <button class="custom-search-botton" type="submit">Subscribe</button>  
-                      </div> -->
-
-                </form>
             </div>
         </div>
     </section>

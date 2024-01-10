@@ -199,6 +199,18 @@ body {
   color: #555;
 }
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: flex-end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .list-icon {
   width: 3rem;
   height: 3rem;
