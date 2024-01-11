@@ -734,13 +734,11 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   /* background-color: #e2ac20; */
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.2rem 1.2rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
   background-image: linear-gradient(to right bottom, #eb984e, #e2ac20);
   overflow: hidden;
-  align-items: center;
-  justify-items: center;
 }
 
 .cta-form {
@@ -805,7 +803,6 @@
 #email {
   width: 100%;
   border: 1px solid #ccc;
-  /* border-radius: 100px; */
   padding: 10px 20px;
   line-height: 1;
   outline: none;
@@ -822,7 +819,6 @@
   outline: none;
   margin: 0;
   padding: 0 15px;
-  /* border-radius: 80px; */
   z-index: 2;
   cursor: pointer;
 }
