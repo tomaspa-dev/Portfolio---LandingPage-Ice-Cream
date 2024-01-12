@@ -97,7 +97,7 @@
 /** HERO SECTION **/
 .hero-section {
   background-color: #f1f1cf;
-  padding: 4rem 0 4rem 0;
+  padding: 2rem 0 4rem 0;
 }
 
 .hero {
@@ -117,6 +117,12 @@
 .social-proof p {
   color: #262626;
   font-size: 1.4rem;
+}
+
+.social-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 .delivered-imgs img {
@@ -143,14 +149,17 @@
   margin-bottom: 4.8rem;
 }
 
-.hero-image-box {
-  max-width: 100%;
+.hero-img-box {
+  max-width: 80%;
   max-height: auto;
+  margin: 0 auto;
 }
 
 .hero-img {
-  width: 80%;
+  width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
   /* height: 100%; */
   /* object-fit: cover; */
 }
@@ -240,7 +249,7 @@
 /** STATISTICS SECTION **/
 .content-statistics-box {
   display: grid;
-  grid-template-columns: 1.5fr 2.5fr;
+  grid-template-columns: 1.5fr 2fr;
   align-content: center;
   justify-items: center;
   gap: 9.6rem;
@@ -288,6 +297,7 @@
 .img-statistics-box {
   max-width: 50%;
   max-height: auto;
+  margin: 0 auto;
 }
 
 .ingredients-img {
