@@ -103,7 +103,7 @@
 .hero {
   display: grid;
   grid-template-columns: 2fr 3fr;
-  gap: 6.2rem;
+  gap: 10rem;
   align-items: start;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .hero-img {
-  width: 100%;
+  width: 80%;
   height: auto;
   /* height: 100%; */
   /* object-fit: cover; */
@@ -678,7 +678,7 @@
   margin-bottom: 9.6rem;
 }
 
-.img-gallery-box:nth-child(1) {
+/* .img-gallery-box:nth-child(1) {
   grid-row: span 2;
 }
 
@@ -688,8 +688,8 @@
 }
 
 .img-gallery-box:nth-child(17) {
-  grid-row: span 2;
-}
+  grid-row: 5/7;
+} */
 
 .img-gallery-box {
   position: relative;

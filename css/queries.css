@@ -3,26 +3,31 @@
 /*******************************/
 /* BELOW 1344px (Smaller desktops)*/
 /*******************************/
-
-@media (max-width: 84em) {
+@media (max-width: 84rem) {
   .hero {
     max-width: 120rem;
   }
 
   .heading-primary {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 }
 
 /*******************************/
 /* BELOW 1200px (Landscape Tablets)*/
 /*******************************/
+@media (max-width: 75rem) {
+  html {
+    /* 9px / 16px*/
+    font-size: 56.25%;
+  }
+}
 
 /*******************************/
 /* BELOW 944px (Tablets)*/
 /*******************************/
 
-@media (max-width: 59em) {
+@media (max-width: 59rem) {
   html {
     /* 9px / 16px  */
     font-size: 56.25%;
@@ -34,11 +39,11 @@
 }
 
 /*******************************/
-/* BELOW 704px (Smaller tablets)*/
+/* BELOW 885px (Smaller tablets)*/
 /*******************************/
 
-@media (max-width: 44em) {
-  .heading-primary {
+@media (max-width: 56rem) {
+  /* .heading-primary {
     font-size: 2.4rem;
   }
 
@@ -63,7 +68,7 @@
 
   .main-nav-list {
     gap: 3.2rem;
-  }
+  } */
 }
 
 /*******************************/
@@ -94,3 +99,12 @@
     gap: 1.4rem;
   }
 }
+
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 42 / 52 / 62 / 74 / 86 / 90 / 96 / 100
+
+--- 07 WHITESPACE
+-- Spacing system (px) multiples of 12
+4 / 6 / 12 / 24 / 36 / 48 / 60 / 72 / 84 / 96 / 120 
+*/
