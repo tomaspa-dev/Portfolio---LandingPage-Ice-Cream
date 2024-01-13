@@ -57,6 +57,11 @@
     font-size: 50%;
   }
 
+  .grid {
+    column-gap: 2.4rem;
+    row-gap: 4.8rem;
+  }
+
   .hero {
     gap: 6rem;
   }
@@ -70,11 +75,33 @@
     line-height: 1.2;
   }
 
+  .main-testimonial-text {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.4rem;
+  }
+
+  .main-testimonial-heading {
+    margin-bottom: 6.4rem;
+  }
+
   .btn,
   .btn:link,
   .btn:visited {
     margin-right: 0;
   }
+
+  .icon {
+    font-size: 1.4rem;
+    margin: 1rem;
+  }
+
+  /* .description {
+    height: 8rem;
+    width: 48rem;
+  } */
 }
 
 /*******************************/
