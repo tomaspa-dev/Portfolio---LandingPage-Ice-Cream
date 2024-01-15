@@ -530,35 +530,89 @@
 }
 
 /** GALLERY SECTION **/
-.wrapper {
-  /* width: 100%;
-  height: 100vh; */
+.gallery-section {
+  background-color: #fff;
+  padding: 12rem 0;
+}
+
+.main-gallery-heading {
+  margin-bottom: 9.6rem;
+}
+
+.slider {
+  /* 
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 9.6rem;
-}
-
-.container-locals {
-  height: 40rem;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: start;
-}
-
-.locals-card {
-  width: 8rem;
-  border-radius: 0.75rem;
-  background-size: cover;
-  cursor: pointer;
+   */
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
   overflow: hidden;
-  border-radius: 2rem;
-  margin: 0 1rem;
+}
+
+.slider-locals {
   display: flex;
-  align-items: flex-end;
-  transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
-  box-shadow: 0px 10px 15px -14px rgba(0, 0, 0, 0.8);
+  width: calc(250px * 4);
+  animation: scroll 40% linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+
+.slide {
+  width: 250px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  perspective: 100px;
+}
+
+.local-image img {
+  width: 100%;
+}
+
+.local-image img:hover {
+  transform: translateZ(20px);
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotatez(180deg);
 }
 
 .locals-title {
@@ -572,102 +626,6 @@
   line-height: 1.4;
   color: #b0b0b0;
 }
-/* .locals-card > .row */
-.row {
-  color: #fff;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
-
-/* .locals-card > .row > .icon */
-.icon {
-  background: #6c554d;
-  color: #fff;
-  border-radius: 50%;
-  width: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1.5rem;
-  font-size: 1.6rem;
-}
-
-.meal-description-title {
-  text-transform: uppercase;
-  font-size: 1.8rem;
-  line-height: 1.6;
-  color: #fff;
-  margin-bottom: 0.6rem;
-}
-
-.meal-description-text {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  color: #ccc;
-}
-
-/* .locals-card > .row > */
-.description {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  overflow: hidden;
-  height: 8rem;
-  width: 52rem;
-  opacity: 0;
-  transform: translateY(30px);
-  transition-delay: 0.3s;
-  transition: all 0.3s ease;
-}
-
-.description {
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-  text-align: center;
-}
-
-.description p {
-  padding-top: 0.5rem;
-}
-
-.description h4 {
-  text-transform: uppercase;
-}
-
-.container-locals input {
-  display: none;
-}
-
-.container-locals input:hover + label {
-  width: 60rem;
-}
-
-.container-locals input:hover + label .description {
-  opacity: 1 !important;
-  transform: translateY(0) !important;
-}
-
-.locals-card[for="c1"] {
-  background-image: url("/img/local-001.webp");
-}
-
-.locals-card[for="c2"] {
-  background-image: url("/img/local-002.webp");
-}
-
-.locals-card[for="c3"] {
-  background-image: url("/img/local-003.webp");
-}
-
-.locals-card[for="c4"] {
-  background-image: url("/img/local-004.webp");
-}
-
-.gallery-section {
-  background-color: #fff;
-  padding: 12rem 0;
-}
 
 .title-locals-box {
   font-weight: 700;
@@ -677,9 +635,7 @@
   margin-bottom: 3.6rem;
 }
 
-.main-gallery-heading {
-  margin-bottom: 9.6rem;
-}
+/** OUR FLAVORS **/
 
 .gallery-box {
   display: grid;
@@ -689,19 +645,6 @@
   padding: 1.6rem;
   margin-bottom: 9.6rem;
 }
-
-/* .img-gallery-box:nth-child(1) {
-  grid-row: span 2;
-}
-
-.img-gallery-box:nth-child(8) {
-  grid-column: 3/-1;
-  grid-row: 2/2;
-}
-
-.img-gallery-box:nth-child(17) {
-  grid-row: 5/7;
-} */
 
 .img-gallery-box {
   position: relative;
