@@ -11,11 +11,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 10rem;
+  padding-top: 0.5rem;
   background-color: #f1f1cf;
-  max-width: 120rem;
+  /* max-width: 120rem; */
   padding: 0 3.2rem;
-  margin: 0 auto;
+  padding-top: 0.5rem;
 }
 
 .logo {
@@ -462,7 +462,7 @@
 
 .meal-description {
   position: absolute;
-  top: 40%;
+  top: 38.8%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -561,9 +561,9 @@
   padding: 12rem 0;
 }
 
-.main-gallery-heading {
+/* .main-gallery-heading {
   margin-bottom: 9.6rem;
-}
+} */
 
 .slider {
   /* 
@@ -765,7 +765,7 @@
 }
 
 .cta-text-box {
-  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  padding: 4.2rem 6.2rem 6.2rem 6.2rem;
   color: #45260a;
 }
 
