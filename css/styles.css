@@ -639,11 +639,11 @@
   display: none;
 }
 
-.container-locals input:checked + label {
+.container-locals input:hover + label {
   width: 60rem;
 }
 
-.container-locals input:checked + label .description {
+.container-locals input:hover + label .description {
   opacity: 1 !important;
   transform: translateY(0) !important;
 }
