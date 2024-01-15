@@ -13,6 +13,9 @@
   align-items: center;
   padding: 1.2rem 10rem;
   background-color: #f1f1cf;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 .logo {
@@ -276,7 +279,7 @@
 }
 
 .text-statistics-box {
-  align-self: end;
+  align-self: center;
 }
 
 .content-statistics-list {
@@ -295,7 +298,7 @@
 }
 
 .img-statistics-box {
-  max-width: 50%;
+  max-width: 80%;
   max-height: auto;
   margin: 0 auto;
 }
@@ -329,19 +332,23 @@
   padding: 12rem 0;
 }
 
-.main-testimonial {
+.content-testimonial-box {
+  /* display: flex;
+  gap: 3.6rem;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+  align-content: center;
+  justify-items: center;
+  gap: 9.6rem;
   margin-bottom: 9.6rem;
 }
 
-.content-testimonial-box {
-  display: flex;
-  gap: 3.6rem;
-  align-items: center;
-}
-
 .main-testimonial-img {
-  max-width: 30%;
+  max-width: 80%;
   max-height: auto;
+  margin: 0 auto;
+  align-self: center;
 }
 
 .main-customer-img {
@@ -423,6 +430,10 @@
 }
 
 /** MENU SECTION **/
+.grid {
+  justify-items: center;
+}
+
 .main-menu-heading {
   margin-bottom: 9.6rem;
 }
@@ -482,6 +493,7 @@
 }
 
 .meal {
+  max-width: 30rem;
   box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.079);
   border-radius: 11px;
   overflow: hidden;

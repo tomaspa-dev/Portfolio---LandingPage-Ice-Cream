@@ -126,6 +126,50 @@
     grid-template-columns: 2fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  .cta-text {
+    font-size: 1.4rem;
+  }
+
+  .meal-3 {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .content-statistics-box {
+    grid-template-columns: 2fr 1.5fr;
+    gap: 4.8rem;
+  }
+
+  .img-statistics-box {
+    max-width: auto;
+    align-self: center;
+  }
+
+  .content-testimonial-box {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 2.4rem;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+  }
+
+  .main-testimonial-text {
+    font-size: 1.4rem;
+  }
+
+  .grid--footer {
+    grid-template-columns: repeat(2, 1.5fr);
+    row-gap: 2rem;
+  }
+
+  .logo-col {
+    grid-row: 2;
+  }
 }
 
 /*******************************/
@@ -134,6 +178,10 @@
 
 @media (max-width: 34em) {
   .heading-primary {
+    font-size: 2.4rem;
+  }
+
+  .heading-secondary {
     font-size: 2.4rem;
   }
 
@@ -164,6 +212,15 @@
     row-gap: 1.4rem;
   }
 
+  .content-statistics-box {
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 1.5fr;
+  }
+
+  .statistics-numbers {
+    font-size: 3rem;
+  }
+
   .btn--form {
     position: relative;
     align-self: stretch;
@@ -171,6 +228,36 @@
 
   .footer-section {
     padding: 6rem 0;
+  }
+
+  .content-testimonial-box {
+    grid-template-columns: 2fr;
+    grid-template-rows: 0.5fr 0.5fr;
+  }
+
+  .statistics-box {
+    gap: 2.4rem;
+  }
+
+  .grid--3--cols,
+  .grid--4--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+
+  .grid--footer {
+    grid-template-columns: repeat(2, 1.5fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+
+  .grid--footer:link,
+  .grid--footer a {
+    font-size: 1.2rem;
   }
 }
 
