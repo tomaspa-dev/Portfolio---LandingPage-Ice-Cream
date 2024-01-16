@@ -23,3 +23,33 @@ const a2 = annotate(n2, {
 
 const group = annotationGroup([a1, a2]);
 group.show();
+
+///////////////////////////////////////////////////////////
+// Sticky navigation
+
+const heroSectionEl = document.querySelector(".hero-section");
+
+const observer = new IntersectionObserver(
+  function (entries) {
+    const entrie = entries[0];
+    // console.log(ent);
+
+    if (entrie.isIntersecting === false) {
+      document.body.classList.add("sticky");
+    }
+
+    if (entrie.isIntersecting === true) {
+      document.body.classList.remove("sticky");
+    }
+  },
+  {
+    // In the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+
+observer.observe(heroSectionEl);
+
+///////////////////////////////////////////////////////////
