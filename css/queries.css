@@ -247,6 +247,7 @@
   .content-statistics-box {
     grid-template-columns: 2fr;
     grid-template-rows: 1fr 1.5fr;
+    margin-bottom: 1.8rem;
   }
 
   .statistics-numbers {
@@ -266,7 +267,7 @@
   .gallery-section,
   .cta-section,
   .footer-section {
-    padding: 6rem 0;
+    padding: 4rem 0;
   }
 
   .footer-section {

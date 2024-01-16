@@ -11,11 +11,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0.5rem;
   background-color: #f1f1cf;
   /* max-width: 120rem; */
   padding: 0 3.2rem;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
 }
 
 .logo {
@@ -86,7 +85,6 @@
   background-color: #cb9b1d;
 }
 
-.hero-section,
 .statistics-section,
 .testimonials-section,
 .menu-section,
@@ -100,7 +98,7 @@
 /** HERO SECTION **/
 .hero-section {
   background-color: #f1f1cf;
-  padding: 2rem 0 4rem 0;
+  padding: 6rem 0;
 }
 
 .hero {
