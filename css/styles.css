@@ -483,7 +483,7 @@
 }
 
 .meal-description-text {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.4;
   color: #ccc;
 }
@@ -840,6 +840,7 @@
 
 .footer-logo {
   display: block;
+  align-self: center;
   margin-bottom: 2.4rem;
 }
 
@@ -851,6 +852,7 @@
 .social-links {
   list-style: none;
   display: flex;
+  align-self: center;
   gap: 2.4rem;
 }
 

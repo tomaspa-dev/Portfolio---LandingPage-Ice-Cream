@@ -70,11 +70,6 @@
     font-size: 2.4rem;
   }
 
-  .meal-description-text {
-    font-size: 1.2rem;
-    line-height: 1.2;
-  }
-
   .main-testimonial-text {
     font-size: 1.8rem;
   }
@@ -114,8 +109,24 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .btn,
+  .btn:link,
+  .btn:visited {
+    /* font-size: 1.6rem; */
+    padding: 1.4rem 1.4rem;
+    margin-right: 1rem;
+  }
+
   .heading-secondary {
     font-size: 3rem;
+  }
+
+  .hero {
+    grid-template-columns: 2.5fr 2.5fr;
+  }
+
+  .hero-img-box {
+    align-self: center;
   }
 
   .cta-text-box {
@@ -211,6 +222,11 @@
     height: 6.2rem;
   }
 
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1rem 1rem;
+  }
+
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 1.6rem;
@@ -283,8 +299,10 @@
     row-gap: 1rem;
   }
 
-  .grid--footer:link,
-  .grid--footer a {
+  .address,
+  .footer-link:link,
+  .footer-link:visited,
+  .copyright {
     font-size: 1.2rem;
   }
 }
