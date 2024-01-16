@@ -92,11 +92,6 @@
     font-size: 1.4rem;
     margin: 1rem;
   }
-
-  /* .description {
-    height: 8rem;
-    width: 48rem;
-  } */
 }
 
 /*******************************/
@@ -214,7 +209,6 @@
 
   .hero {
     grid-template-columns: 1fr;
-    /* height: 75vh; */
     gap: 1rem;
   }
 

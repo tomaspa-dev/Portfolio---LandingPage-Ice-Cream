@@ -3,7 +3,9 @@ import {
   annotationGroup,
 } from "https://unpkg.com/rough-notation?module";
 
+///////////////////////////////////////////////////////////
 // highlight-heading
+///////////////////////////////////////////////////////////
 const n1 = document.querySelector("#highlight-heading");
 const n2 = document.querySelector("#underline-heading");
 const a1 = annotate(n1, {
@@ -26,7 +28,7 @@ group.show();
 
 ///////////////////////////////////////////////////////////
 // Sticky navigation
-
+///////////////////////////////////////////////////////////
 const heroSectionEl = document.querySelector(".hero-section");
 
 const observer = new IntersectionObserver(
