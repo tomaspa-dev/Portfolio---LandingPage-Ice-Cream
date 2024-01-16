@@ -95,6 +95,16 @@
   padding: 12rem 0;
 }
 
+/* STICKY NAVIGATION BAR */
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1cf;
+  z-index: 999;
+}
+
 /** HERO SECTION **/
 .hero-section {
   background-color: #f1f1cf;
