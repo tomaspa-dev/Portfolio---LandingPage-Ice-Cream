@@ -92,13 +92,7 @@
     font-size: 1.4rem;
     margin: 1rem;
   }
-}
 
-/*******************************/
-/* BELOW 885px (Smaller tablets)*/
-/*******************************/
-
-@media (max-width: 56rem) {
   .grid--3--cols,
   .grid--4--cols {
     grid-template-columns: repeat(2, 1fr);
@@ -146,10 +140,6 @@
     grid-row: 1;
   }
 
-  /* .cta-text {
-    font-size: 1.8rem;
-  } */
-
   .meal-3 {
     grid-column: 1/-1;
     justify-self: center;
@@ -176,10 +166,6 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 4rem;
   }
-
-  /* .main-testimonial-text {
-    font-size: 1.4rem;
-  } */
 
   .grid--footer {
     grid-template-columns: repeat(2, 1.5fr);
